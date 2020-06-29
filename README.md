@@ -162,4 +162,6 @@ http://localhost:3000
 
 ![VSCode :React](/images/react_app.png)
 
+7. Web Bookmarks Extention
 
+![VSCode :Bookmarks](/images/web_bookmark.png)
