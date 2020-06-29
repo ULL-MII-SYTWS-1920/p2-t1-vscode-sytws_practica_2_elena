@@ -112,3 +112,54 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?5BFB0575E0B01BF2D592FCA36
 + Launch connection  --> *Connect as Workspace folder*
 ![VSCode :Remote Server](/images/remote_server.png)
 
+5. Multi-Root Worksapces
+
++ Add folders to the project
++ Use Drag and Drop to reorder folders in the workspace
++ Check a .code-workspace file after workspaces saving 
+
+![VSCode :Multi-root](/images/multi-root.png)
+
+6. React
+
++ Preconditions 
+
+Node.JS + NPM
+```
+$ npm --version
+3.5.2
+$ node --version
+v8.10.0
+```
+NPM - execute npm package binaries
+
+```
+sudo npm install -g npx
+```
+
++ Use React 
+```
+npx create-react-app my-app
+```
+
+Result
+```
+$ pwd
+/home/usuario/my-app
+$ ls
+node_modules  package.json  public  README.md  src
+```
+
+![VSCode :React](/images/app.png)
+
++ Launch app
+
+Command line --> *View: Toogle Integrated Terminal* --> ```code .``` or ```npm start```
+
++ Check results 
+
+http://localhost:3000
+
+![VSCode :React](/images/react_app.png)
+
+
